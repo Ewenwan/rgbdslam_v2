@@ -1,6 +1,8 @@
 <!-- This file shows the most important parameters in their default settings,
      to make them easily available for beginners.
 
+程序的参数可以在openni+rgbdslam.launch文件中调整。例如特征点类型呀（支持SIFT，SURF，ORB，SIFTGPU），最大特征数量等等。
+
      The openni driver is started automatically -->
 <launch>
   <include file="$(find openni_launch)/launch/openni.launch"/>
